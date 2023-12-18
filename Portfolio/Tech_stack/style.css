@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #bbd0ff;
+
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    align-items: center;
+    text-align: center;
+}
+/* .table{
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* table ,td, th, tr, tbody{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+} */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+table.table {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+thead{
+    font-weight: bolder;
+}

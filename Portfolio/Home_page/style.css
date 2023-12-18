@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #bbd0ff;
+
+}
+
+.career{
+    margin: 20px;
+}
+
+.career h2{
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+}
+.career p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.career p{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+
+.professional{
+    margin: 20px;
+}
+
+.professional h2{
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+}
+
+.professional ul{
+    padding-left: 50px;
+    padding-top: 10px;
+    list-style-type: square;
+    
+}
+
+.professional ul li{
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
