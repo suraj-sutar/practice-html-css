@@ -29,9 +29,9 @@ body{
     border-radius: 10px;
     padding: 30px 40px;
     background: -webkit-linear-gradient(
-        
-        rgb(111, 205, 231),
-        rgb(106, 235, 192) 
+        right,
+        #a3c4f3,
+        #8eecf5 
     );
 }
 
@@ -61,7 +61,7 @@ body{
 }
 
 .input-box input::placeholder{
-    color: #fff;
+    color: #888888b4;
 }
 
 .input-box i {
@@ -70,6 +70,7 @@ body{
     top: 25%;
     transform: translate(-50%);
     font-size: 20px;
+    color: #000000;
 }
 
 .remeber-forgot{
@@ -107,7 +108,7 @@ body{
 }
 
 .wrapper .btn:hover{
-    background: #b8b7b7;
+    background: #7bdff2;
 
 }
 
