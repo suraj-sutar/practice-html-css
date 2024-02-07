@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ebeef1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+}
+
+.item1-heading {
+  margin: 25px 0;
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+.item1-heading h3 {
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.item2-display_result {
+  margin: 10px 15px;
+}
+
+.item2-display_result input {
+  padding-left: 20px;
+  font-size: 20px;
+  color: rgb(82, 80, 80);
+  height: 50px;
+  width: 300px;
+  margin-bottom: 35px;
+  border: none;
+  outline: none;
+  background-color: #ebeef1;
+  box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+}
+
+.item3-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-line1 button {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line1 button:active {
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line2 button {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line2 button:active {
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line3 button {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line3 button:active {
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line4 button {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line4 button:active {
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line5 button {
+  width: 50px;
+  height: 30px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
+
+.buttons-line5 button:active {
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgba(255, 255, 255, 0.75);
+}
