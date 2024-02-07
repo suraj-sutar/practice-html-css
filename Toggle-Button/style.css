@@ -1,0 +1,57 @@
+div input {
+  display: none;
+}
+body {
+  min-height: 100vh;
+  background: #ebeef1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.darks {
+  background-color: #555353be;
+}
+.light {
+  background-color: #ebeef1;
+}
+
+div .lable1 {
+  position: relative;
+  /* border: 1px solid black; */
+  display: block;
+  width: 100px;
+  height: 50px;
+  background: #ebeef1;
+  border-radius: 50px;
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgb(255, 254, 254);
+  cursor: pointer;
+}
+
+div .lable1::before {
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: #eeeff0;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    -5px -5px 5px -1px rgb(255, 254, 254);
+  transition: 1s;
+}
+
+div input:checked + label {
+  transition: 1s;
+  box-shadow: inset 5px 5px 5px -1px rgba(10, 99, 169, 0.16),
+    inset -5px -5px 5px -1px rgb(255, 254, 254);
+}
+
+/* change the postion when i was click on check box */
+div input:checked + label::before {
+  position: absolute;
+  left: 50px;
+  transition: 1s;
+}
